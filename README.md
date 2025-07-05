@@ -27,6 +27,7 @@
 <br>
 
 ## 2. 기술 스택
+
 ![Java 17](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white) 
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=Spring-Security&logoColor=white) 
@@ -123,14 +124,14 @@
 | Service   | [`FileScheduledService.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/FileScheduledService.java)          |
 | Service   | [`FileStorageService.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/FileStorageService.java)                |
 | Domain    | [`Files.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/Files.java)                                        |
-| Domain    | [`FilesType.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FilesType.java)                           |
-| Domain    | [`FileExtension.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FileExtension.java)                   |
-| Domain    | [`Artists.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/Artists.java)                                    |
-| Controller| [`ArtistController.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/controller/ArtistController.java)                |
-| Service   | [`ArtistsService.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/ArtistsService.java)                      |
-| Repository| [`ArtistsRepository.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/repository/ArtistsRepository.java)              |
-| Exception | [`CustomException.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/CustomException.java)           |
-| Exception | [`GlobalExceptionHandler.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/GlobalExceptionHandler.java) |
+| Domain    | [`FilesType.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FilesType.java)                           |
+| Domain    | [`FileExtension.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FileExtension.java)                   |
+| Domain    | [`Artists.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/Artists.java)                                    |
+| Controller| [`ArtistController.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/controller/ArtistController.java)                |
+| Service   | [`ArtistsService.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/ArtistsService.java)                      |
+| Repository| [`ArtistsRepository.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/repository/ArtistsRepository.java)              |
+| Exception | [`CustomException.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/CustomException.java)           |
+| Exception | [`GlobalExceptionHandler.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/GlobalExceptionHandler.java) |
 
 </details>
 
