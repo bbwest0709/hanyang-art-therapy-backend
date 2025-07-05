@@ -1,16 +1,13 @@
 # 프로젝트 목차
-1. [프로젝트 개요](#프로젝트-개요)
-2. [기술 스택](#기술-스택)
-3. [API 명세서](#api-명세서)
-4. [파일 관리 시스템 및 인프라 설계](#파일-관리-시스템-및-인프라-설계)
-5. [구현 의도](#구현-의도)
-6. [구현 코드](#구현-코드)
-7. [트러블 슈팅](#트러블-슈팅)
-8. [프로젝트 링크](#프로젝트-링크)
+1. [프로젝트 개요](#1-프로젝트-개요)
+2. [기술 스택](#2-기술-스택)
+3. [API 명세서](#3-프로젝트-관리)
+4. [구현 기능 / 구현 의도](#4-구현-기능)
+7. [트러블 슈팅](#5-트러블슈팅)
 
 <br>
 
-## 🎨 프로젝트 개요
+## 1. 프로젝트 개요
 
 - **프로젝트 주제** : 한양대학교 미술치료학과 홈페이지
 - **프로젝트 목적** : 졸업 전시회 작품 수록 및 학과 정보 전달  
@@ -29,7 +26,7 @@
 
 <br>
 
-## ⚙️ 기술 스택
+## 2. 기술 스택
 
 ![Java 17](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white) 
@@ -42,6 +39,8 @@
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
 
 <br>
+
+## 3. 프로젝트 관리
 
 ## 📄 API 명세서
 
@@ -60,6 +59,8 @@
 
 
 <br>
+
+## 4. 구현 기능
 
 ## 💾 파일 관리 시스템 및 인프라 설계
 
@@ -123,16 +124,18 @@
 | Service   | [`FileScheduledService.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/FileScheduledService.java)          |
 | Service   | [`FileStorageService.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/FileStorageService.java)                |
 | Domain    | [`Files.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/Files.java)                                        |
-| Domain    | [`FilesType.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FilesType.java)                           |
-| Domain    | [`FileExtension.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FileExtension.java)                   |
-| Domain    | [`Artists.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/Artists.java)                                    |
-| Controller| [`ArtistController.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/controller/ArtistController.java)                |
-| Service   | [`ArtistsService.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/ArtistsService.java)                      |
-| Repository| [`ArtistsRepository.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/repository/ArtistsRepository.java)              |
-| Exception | [`CustomException.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/CustomException.java)           |
-| Exception | [`GlobalExceptionHandler.java`](https://github.com/bbwest0709/hanyang-arttherapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/GlobalExceptionHandler.java) |
+| Domain    | [`FilesType.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FilesType.java)                           |
+| Domain    | [`FileExtension.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/enums/FileExtension.java)                   |
+| Domain    | [`Artists.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/domain/Artists.java)                                    |
+| Controller| [`ArtistController.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/controller/ArtistController.java)                |
+| Service   | [`ArtistsService.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/service/ArtistsService.java)                      |
+| Repository| [`ArtistsRepository.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/repository/ArtistsRepository.java)              |
+| Exception | [`CustomException.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/CustomException.java)           |
+| Exception | [`GlobalExceptionHandler.java`](https://github.com/bbwest0709/hanyang-art-therapy-backend/blob/dev/src/main/java/com/hanyang/arttherapy/common/exception/GlobalExceptionHandler.java) |
 
 </details>
+
+## 5. 트러블슈팅
 
 <details>
   <summary>🐞 트러블 슈팅</summary>
